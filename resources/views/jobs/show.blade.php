@@ -6,4 +6,9 @@
     <p>
         This job pays {{$job['salary']}} per year
     </p>
+
+    <p>
+        <a href="/jobs/{{$job->id}}/edit" class="mt-1">Edit</a>
+    </p>
+
 </x-layout>
